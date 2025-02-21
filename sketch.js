@@ -1,5 +1,9 @@
 let rectangles = [];
 
+window.onload = function() {
+  alert("Cliquez n'importe où sur la page");
+};
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
 }
